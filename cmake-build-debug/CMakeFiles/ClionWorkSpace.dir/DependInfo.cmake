@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "E:/ClionWorkSpace/main.c" "E:/ClionWorkSpace/cmake-build-debug/CMakeFiles/ClionWorkSpace.dir/main.c.obj"
+  "E:/ClionWorkSpace/p35-1/BasicInit.c" "E:/ClionWorkSpace/cmake-build-debug/CMakeFiles/ClionWorkSpace.dir/p35-1/BasicInit.c.obj"
   "E:/ClionWorkSpace/p35-1/shortListMerge.c" "E:/ClionWorkSpace/cmake-build-debug/CMakeFiles/ClionWorkSpace.dir/p35-1/shortListMerge.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")

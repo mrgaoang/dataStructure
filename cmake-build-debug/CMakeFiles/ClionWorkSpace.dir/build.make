@@ -96,19 +96,40 @@ CMakeFiles\ClionWorkSpace.dir\p35-1\shortListMerge.c.s: cmake_force
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\ClionWorkSpace.dir\p35-1\shortListMerge.c.s /c E:\ClionWorkSpace\p35-1\shortListMerge.c
 <<
 
+CMakeFiles\ClionWorkSpace.dir\p35-1\BasicInit.c.obj: CMakeFiles\ClionWorkSpace.dir\flags.make
+CMakeFiles\ClionWorkSpace.dir\p35-1\BasicInit.c.obj: ..\p35-1\BasicInit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionWorkSpace\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ClionWorkSpace.dir/p35-1/BasicInit.c.obj"
+	D:\VisualStudioMain2019\VC\Tools\MSVC\14.24.28314\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\ClionWorkSpace.dir\p35-1\BasicInit.c.obj /FdCMakeFiles\ClionWorkSpace.dir\ClionWorkSpace.pdb /FS -c E:\ClionWorkSpace\p35-1\BasicInit.c
+<<
+
+CMakeFiles\ClionWorkSpace.dir\p35-1\BasicInit.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ClionWorkSpace.dir/p35-1/BasicInit.c.i"
+	D:\VisualStudioMain2019\VC\Tools\MSVC\14.24.28314\bin\Hostx86\x86\cl.exe > CMakeFiles\ClionWorkSpace.dir\p35-1\BasicInit.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\ClionWorkSpace\p35-1\BasicInit.c
+<<
+
+CMakeFiles\ClionWorkSpace.dir\p35-1\BasicInit.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ClionWorkSpace.dir/p35-1/BasicInit.c.s"
+	D:\VisualStudioMain2019\VC\Tools\MSVC\14.24.28314\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\ClionWorkSpace.dir\p35-1\BasicInit.c.s /c E:\ClionWorkSpace\p35-1\BasicInit.c
+<<
+
 # Object files for target ClionWorkSpace
 ClionWorkSpace_OBJECTS = \
 "CMakeFiles\ClionWorkSpace.dir\main.c.obj" \
-"CMakeFiles\ClionWorkSpace.dir\p35-1\shortListMerge.c.obj"
+"CMakeFiles\ClionWorkSpace.dir\p35-1\shortListMerge.c.obj" \
+"CMakeFiles\ClionWorkSpace.dir\p35-1\BasicInit.c.obj"
 
 # External object files for target ClionWorkSpace
 ClionWorkSpace_EXTERNAL_OBJECTS =
 
 ClionWorkSpace.lib: CMakeFiles\ClionWorkSpace.dir\main.c.obj
 ClionWorkSpace.lib: CMakeFiles\ClionWorkSpace.dir\p35-1\shortListMerge.c.obj
+ClionWorkSpace.lib: CMakeFiles\ClionWorkSpace.dir\p35-1\BasicInit.c.obj
 ClionWorkSpace.lib: CMakeFiles\ClionWorkSpace.dir\build.make
 ClionWorkSpace.lib: CMakeFiles\ClionWorkSpace.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\ClionWorkSpace\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library ClionWorkSpace.lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\ClionWorkSpace\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library ClionWorkSpace.lib"
 	$(CMAKE_COMMAND) -P CMakeFiles\ClionWorkSpace.dir\cmake_clean_target.cmake
 	D:\VisualStudioMain2019\VC\Tools\MSVC\14.24.28314\bin\Hostx86\x86\link.exe /lib /nologo /machine:X86 /out:ClionWorkSpace.lib @CMakeFiles\ClionWorkSpace.dir\objects1.rsp 
 
