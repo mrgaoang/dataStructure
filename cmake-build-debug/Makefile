@@ -124,33 +124,6 @@ ClionWorkSpace\fast:
 	$(MAKE) -f CMakeFiles\ClionWorkSpace.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ClionWorkSpace.dir\build
 .PHONY : ClionWorkSpace\fast
 
-main.obj: main.c.obj
-
-.PHONY : main.obj
-
-# target to build an object file
-main.c.obj:
-	$(MAKE) -f CMakeFiles\ClionWorkSpace.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ClionWorkSpace.dir\main.c.obj
-.PHONY : main.c.obj
-
-main.i: main.c.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles\ClionWorkSpace.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ClionWorkSpace.dir\main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles\ClionWorkSpace.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ClionWorkSpace.dir\main.c.s
-.PHONY : main.c.s
-
 p35-1\shortListMerge.obj: p35-1\shortListMerge.c.obj
 
 .PHONY : p35-1\shortListMerge.obj
@@ -214,9 +187,6 @@ help:
 	@echo ... ClionWorkSpace
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 	@echo ... p35-1/shortListMerge.obj
 	@echo ... p35-1/shortListMerge.i
 	@echo ... p35-1/shortListMerge.s

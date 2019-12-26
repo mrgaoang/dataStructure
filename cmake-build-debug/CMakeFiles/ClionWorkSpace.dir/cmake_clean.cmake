@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ClionWorkSpace.dir/main.c.obj"
   "CMakeFiles/ClionWorkSpace.dir/p35-1/shortListMerge.c.obj"
   "CMakeFiles/ClionWorkSpace.dir/p40/answer_p40.c.obj"
   "ClionWorkSpace.lib"

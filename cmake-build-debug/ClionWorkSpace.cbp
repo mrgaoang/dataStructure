@@ -82,13 +82,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/ClionWorkSpace/main.c">
+		<Unit filename="E:/ClionWorkSpace/basic/shortListMerge.h">
 			<Option target="ClionWorkSpace"/>
 		</Unit>
 		<Unit filename="E:/ClionWorkSpace/p35-1/shortListMerge.c">
-			<Option target="ClionWorkSpace"/>
-		</Unit>
-		<Unit filename="E:/ClionWorkSpace/p35-1/shortListMerge.h">
 			<Option target="ClionWorkSpace"/>
 		</Unit>
 		<Unit filename="E:/ClionWorkSpace/p40/answer_p40.c">
