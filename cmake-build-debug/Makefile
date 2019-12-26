@@ -151,33 +151,6 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\ClionWorkSpace.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ClionWorkSpace.dir\main.c.s
 .PHONY : main.c.s
 
-p35-1\BasicInit.obj: p35-1\BasicInit.c.obj
-
-.PHONY : p35-1\BasicInit.obj
-
-# target to build an object file
-p35-1\BasicInit.c.obj:
-	$(MAKE) -f CMakeFiles\ClionWorkSpace.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ClionWorkSpace.dir\p35-1\BasicInit.c.obj
-.PHONY : p35-1\BasicInit.c.obj
-
-p35-1\BasicInit.i: p35-1\BasicInit.c.i
-
-.PHONY : p35-1\BasicInit.i
-
-# target to preprocess a source file
-p35-1\BasicInit.c.i:
-	$(MAKE) -f CMakeFiles\ClionWorkSpace.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ClionWorkSpace.dir\p35-1\BasicInit.c.i
-.PHONY : p35-1\BasicInit.c.i
-
-p35-1\BasicInit.s: p35-1\BasicInit.c.s
-
-.PHONY : p35-1\BasicInit.s
-
-# target to generate assembly for a file
-p35-1\BasicInit.c.s:
-	$(MAKE) -f CMakeFiles\ClionWorkSpace.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ClionWorkSpace.dir\p35-1\BasicInit.c.s
-.PHONY : p35-1\BasicInit.c.s
-
 p35-1\shortListMerge.obj: p35-1\shortListMerge.c.obj
 
 .PHONY : p35-1\shortListMerge.obj
@@ -205,6 +178,33 @@ p35-1\shortListMerge.c.s:
 	$(MAKE) -f CMakeFiles\ClionWorkSpace.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ClionWorkSpace.dir\p35-1\shortListMerge.c.s
 .PHONY : p35-1\shortListMerge.c.s
 
+p40\answer_p40.obj: p40\answer_p40.c.obj
+
+.PHONY : p40\answer_p40.obj
+
+# target to build an object file
+p40\answer_p40.c.obj:
+	$(MAKE) -f CMakeFiles\ClionWorkSpace.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ClionWorkSpace.dir\p40\answer_p40.c.obj
+.PHONY : p40\answer_p40.c.obj
+
+p40\answer_p40.i: p40\answer_p40.c.i
+
+.PHONY : p40\answer_p40.i
+
+# target to preprocess a source file
+p40\answer_p40.c.i:
+	$(MAKE) -f CMakeFiles\ClionWorkSpace.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ClionWorkSpace.dir\p40\answer_p40.c.i
+.PHONY : p40\answer_p40.c.i
+
+p40\answer_p40.s: p40\answer_p40.c.s
+
+.PHONY : p40\answer_p40.s
+
+# target to generate assembly for a file
+p40\answer_p40.c.s:
+	$(MAKE) -f CMakeFiles\ClionWorkSpace.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ClionWorkSpace.dir\p40\answer_p40.c.s
+.PHONY : p40\answer_p40.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -217,12 +217,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... p35-1/BasicInit.obj
-	@echo ... p35-1/BasicInit.i
-	@echo ... p35-1/BasicInit.s
 	@echo ... p35-1/shortListMerge.obj
 	@echo ... p35-1/shortListMerge.i
 	@echo ... p35-1/shortListMerge.s
+	@echo ... p40/answer_p40.obj
+	@echo ... p40/answer_p40.i
+	@echo ... p40/answer_p40.s
 .PHONY : help
 
 

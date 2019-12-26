@@ -85,13 +85,13 @@
 		<Unit filename="E:/ClionWorkSpace/main.c">
 			<Option target="ClionWorkSpace"/>
 		</Unit>
-		<Unit filename="E:/ClionWorkSpace/p35-1/BasicInit.c">
-			<Option target="ClionWorkSpace"/>
-		</Unit>
 		<Unit filename="E:/ClionWorkSpace/p35-1/shortListMerge.c">
 			<Option target="ClionWorkSpace"/>
 		</Unit>
 		<Unit filename="E:/ClionWorkSpace/p35-1/shortListMerge.h">
+			<Option target="ClionWorkSpace"/>
+		</Unit>
+		<Unit filename="E:/ClionWorkSpace/p40/answer_p40.c">
 			<Option target="ClionWorkSpace"/>
 		</Unit>
 		<Unit filename="E:/ClionWorkSpace/CMakeLists.txt">
