@@ -151,32 +151,32 @@ p35-1\shortListMerge.c.s:
 	$(MAKE) -f CMakeFiles\ClionWorkSpace.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ClionWorkSpace.dir\p35-1\shortListMerge.c.s
 .PHONY : p35-1\shortListMerge.c.s
 
-p40\answer_p40.obj: p40\answer_p40.c.obj
+p40\answer_p40.obj: p40\answer_p40.cpp.obj
 
 .PHONY : p40\answer_p40.obj
 
 # target to build an object file
-p40\answer_p40.c.obj:
-	$(MAKE) -f CMakeFiles\ClionWorkSpace.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ClionWorkSpace.dir\p40\answer_p40.c.obj
-.PHONY : p40\answer_p40.c.obj
+p40\answer_p40.cpp.obj:
+	$(MAKE) -f CMakeFiles\ClionWorkSpace.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ClionWorkSpace.dir\p40\answer_p40.cpp.obj
+.PHONY : p40\answer_p40.cpp.obj
 
-p40\answer_p40.i: p40\answer_p40.c.i
+p40\answer_p40.i: p40\answer_p40.cpp.i
 
 .PHONY : p40\answer_p40.i
 
 # target to preprocess a source file
-p40\answer_p40.c.i:
-	$(MAKE) -f CMakeFiles\ClionWorkSpace.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ClionWorkSpace.dir\p40\answer_p40.c.i
-.PHONY : p40\answer_p40.c.i
+p40\answer_p40.cpp.i:
+	$(MAKE) -f CMakeFiles\ClionWorkSpace.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ClionWorkSpace.dir\p40\answer_p40.cpp.i
+.PHONY : p40\answer_p40.cpp.i
 
-p40\answer_p40.s: p40\answer_p40.c.s
+p40\answer_p40.s: p40\answer_p40.cpp.s
 
 .PHONY : p40\answer_p40.s
 
 # target to generate assembly for a file
-p40\answer_p40.c.s:
-	$(MAKE) -f CMakeFiles\ClionWorkSpace.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ClionWorkSpace.dir\p40\answer_p40.c.s
-.PHONY : p40\answer_p40.c.s
+p40\answer_p40.cpp.s:
+	$(MAKE) -f CMakeFiles\ClionWorkSpace.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ClionWorkSpace.dir\p40\answer_p40.cpp.s
+.PHONY : p40\answer_p40.cpp.s
 
 # Help Target
 help:

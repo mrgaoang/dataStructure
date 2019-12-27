@@ -200,5 +200,5 @@ $RECYCLE.BIN/
 *.lnk
 *.classpath
 *.project
-.cmake-build-debug/
 .CMakeLists.txt
+/cmake-build-debug/
