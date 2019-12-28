@@ -26,15 +26,24 @@ void revert(int A[], int length) {
  * @param i 
  * @param j 
  */
-void delete(int A[], int i, int j, int length) {
-    int p;
-    for (p = i; p + j - i + 1 < length; ++p) {
-        // 将j后面的值放到i后面，直接覆盖
-        A[p] = A[p + j - i + 1];
-        p++;
-    }
-    // 修改顺序表长度
-    length = length - (p - i);
+void delete(
+int A[],
+int i,
+int j,
+int length
+) {
+int p;
+for (
+p = i;
+p + j - i + 1 <
+length;
+++p) {
+// 将j后面的值放到i后面，直接覆盖
+A[p] = A[p + j - i + 1];
+p++;
+}
+// 修改顺序表长度
+length = length - (p - i);
 }
 
 /**
@@ -345,4 +354,40 @@ void findMinAndMax(int A[], int n, int min, int max) {
  * 为b、e、i，在两个顺序表中除去最大公共前缀后的子表分别为 A'=（j，i，n，g），B'=（f，a，n，g）。
  * 若A'=B'-空表，则A=B。若A'=空表且B'空表，或两者均不为空且 A'的第一个元素值小于B'的第一个
  * 元素值，则 A<B，否则 A>B。试编写一个函数，根据上述方法比较A和B的大小。
+ * 此题略
+ */
+
+
+
+
+/**
+ * 假设该链表只给出了头指针head，在不改变链表的前提下，请设计个尽可能高效的算法，
+ * 查找链表中倒数第k（k为正整数）个位置上的结点。若查找成功，算法输出该结点的data值，并返回1：否则，只返回0
+ * （1）给出算法的基本设计思想
+ * 双指针同时移动，指针相隔k个节点，后面的指针到达尾部则另一指针为倒数k节点
+（2）根据设计思想，来用C或C+语言描述算法，关键之处给出注释
+（3）说明你所设计的算法的时间复杂度和空间复杂度。
+ */
+
+void findRightKNode(LNode *L, LNode *&F, int k) {
+    LNode *p = L->next, *q = L->next;
+    // q后移k-1位
+    for (int i = 0; i < k - 1; ++i) {
+        q = q->next;
+    }
+    // p和q相隔k-1位 ，同时后移
+    while (q->next != NULL) {
+        p = p->next;
+        q = q->next;
+    }
+    // 最终q到末尾，p就是倒数第k个节点
+    f = p;
+}
+
+/**
+ * 3.已知一个整数序列A2（a0,a1，…，am），其中0≤an（0≤i<n）若存在a-2…-mx且m>n2（0≤Pm,k≤m），
+ * 则称x为A的主元素。例如，A=（0,5,5,3,5,7,5,5），则5为主元素x又如A\（0,5,5,3,5,1,5,7），
+ * 则A中没有主元素。假设A中的n个元素保存在一个维数中请设计一个尽可能高效的算法，找出A的主元素，
+ * 若存在主元素，则输出该元素：否则输出-14要求
+ *
  */
