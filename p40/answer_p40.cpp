@@ -367,6 +367,8 @@ void findMinAndMax(int A[], int n, int min, int max) {
  * 双指针同时移动，指针相隔k个节点，后面的指针到达尾部则另一指针为倒数k节点
 （2）根据设计思想，来用C或C+语言描述算法，关键之处给出注释
 （3）说明你所设计的算法的时间复杂度和空间复杂度。
+ 时间复杂度为O(n)
+ 空间复杂度为O(1)
  */
 
 void findRightKNode(LNode *L, LNode *&F, int k) {
@@ -388,6 +390,41 @@ void findRightKNode(LNode *L, LNode *&F, int k) {
  * 3.已知一个整数序列A2（a0,a1，…，am），其中0≤an（0≤i<n）若存在a-2…-mx且m>n2（0≤Pm,k≤m），
  * 则称x为A的主元素。例如，A=（0,5,5,3,5,7,5,5），则5为主元素x又如A\（0,5,5,3,5,1,5,7），
  * 则A中没有主元素。假设A中的n个元素保存在一个维数中请设计一个尽可能高效的算法，找出A的主元素，
- * 若存在主元素，则输出该元素：否则输出-14要求
+ * 若存在主元素，则输出该元素：否则输出-1
+ * 题目分析：就是找一个数组中是否有出现频次超过一半的数，有则为主元素
+ * 由于主元素出现次数过半，可以用计数的方式，随便选取一个元素，下一个元素与之相等，计数+1，否则-1，但计数为0时更换主元素候选人
+ * 若有主元素，则一定会从计数中胜出，最后再遍历一遍检查是否为真的主元素即可
  *
+ * 详细查看：p40/精选题3.png
+ *https://github.com/mrgaoang/dataStructure/blob/master/p40/%E7%B2%BE%E9%80%89%E9%A2%983.png
  */
+int findMainData(int A[], int length, int main) {
+    // c 主元素候选人默认用第一个数，count出现次数，i循环计数
+    int c = A[0], count = 1, i;
+    for (i = 1; i < length; ++i) {
+        // 出现一次计数加1
+        if (c == A[i])
+            count++;
+        else {
+            // 若不是候选人减1
+            if (count > 0)
+                count--;
+            else {
+                //减到0时替换候选人
+                c = A[i];
+                count = 1;
+            }
+        }
+    }
+    // 统计候选人出现的真实次数
+    if (count > 0) {
+        for (i = count = 0; i < length; i++) {
+            if (c == A[i])
+                count++;
+        }
+    }
+    // 满足主元素条件则返回1，否则返回0
+    if (count > length / 2)
+        return 1;
+    return 0;
+}
