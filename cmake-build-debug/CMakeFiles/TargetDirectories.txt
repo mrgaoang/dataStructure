@@ -1,3 +1,0 @@
-E:/ClionWorkSpace/cmake-build-debug/CMakeFiles/ClionWorkSpace.dir
-E:/ClionWorkSpace/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/ClionWorkSpace/cmake-build-debug/CMakeFiles/rebuild_cache.dir
