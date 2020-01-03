@@ -75,12 +75,12 @@ preinstall:
 CMakeFiles\ClionWorkSpace.dir\all:
 	$(MAKE) -f CMakeFiles\ClionWorkSpace.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ClionWorkSpace.dir\depend
 	$(MAKE) -f CMakeFiles\ClionWorkSpace.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ClionWorkSpace.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\ClionWorkSpace\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target ClionWorkSpace"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\ClionWorkSpace\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target ClionWorkSpace"
 .PHONY : CMakeFiles\ClionWorkSpace.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\ClionWorkSpace.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\ClionWorkSpace\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\ClionWorkSpace\cmake-build-debug\CMakeFiles 4
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\ClionWorkSpace.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\ClionWorkSpace\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\ClionWorkSpace.dir\rule

@@ -96,19 +96,40 @@ CMakeFiles\ClionWorkSpace.dir\p40\answer_p40.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ClionWorkSpace.dir\p40\answer_p40.cpp.s /c E:\ClionWorkSpace\p40\answer_p40.cpp
 <<
 
+CMakeFiles\ClionWorkSpace.dir\Str´®\KMP.cpp.obj: CMakeFiles\ClionWorkSpace.dir\flags.make
+CMakeFiles\ClionWorkSpace.dir\Str´®\KMP.cpp.obj: ..\Str´®\KMP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionWorkSpace\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ClionWorkSpace.dir/Str´®/KMP.cpp.obj"
+	D:\VisualStudioMain2019\VC\Tools\MSVC\14.24.28314\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ClionWorkSpace.dir\Str´®\KMP.cpp.obj /FdCMakeFiles\ClionWorkSpace.dir\ClionWorkSpace.pdb /FS -c E:\ClionWorkSpace\Str´®\KMP.cpp
+<<
+
+CMakeFiles\ClionWorkSpace.dir\Str´®\KMP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClionWorkSpace.dir/Str´®/KMP.cpp.i"
+	D:\VisualStudioMain2019\VC\Tools\MSVC\14.24.28314\bin\Hostx86\x86\cl.exe > CMakeFiles\ClionWorkSpace.dir\Str´®\KMP.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\ClionWorkSpace\Str´®\KMP.cpp
+<<
+
+CMakeFiles\ClionWorkSpace.dir\Str´®\KMP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClionWorkSpace.dir/Str´®/KMP.cpp.s"
+	D:\VisualStudioMain2019\VC\Tools\MSVC\14.24.28314\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ClionWorkSpace.dir\Str´®\KMP.cpp.s /c E:\ClionWorkSpace\Str´®\KMP.cpp
+<<
+
 # Object files for target ClionWorkSpace
 ClionWorkSpace_OBJECTS = \
 "CMakeFiles\ClionWorkSpace.dir\p35-1\shortListMerge.c.obj" \
-"CMakeFiles\ClionWorkSpace.dir\p40\answer_p40.cpp.obj"
+"CMakeFiles\ClionWorkSpace.dir\p40\answer_p40.cpp.obj" \
+"CMakeFiles\ClionWorkSpace.dir\Str´®\KMP.cpp.obj"
 
 # External object files for target ClionWorkSpace
 ClionWorkSpace_EXTERNAL_OBJECTS =
 
 ClionWorkSpace.lib: CMakeFiles\ClionWorkSpace.dir\p35-1\shortListMerge.c.obj
 ClionWorkSpace.lib: CMakeFiles\ClionWorkSpace.dir\p40\answer_p40.cpp.obj
+ClionWorkSpace.lib: CMakeFiles\ClionWorkSpace.dir\Str´®\KMP.cpp.obj
 ClionWorkSpace.lib: CMakeFiles\ClionWorkSpace.dir\build.make
 ClionWorkSpace.lib: CMakeFiles\ClionWorkSpace.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\ClionWorkSpace\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ClionWorkSpace.lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\ClionWorkSpace\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ClionWorkSpace.lib"
 	$(CMAKE_COMMAND) -P CMakeFiles\ClionWorkSpace.dir\cmake_clean_target.cmake
 	D:\VisualStudioMain2019\VC\Tools\MSVC\14.24.28314\bin\Hostx86\x86\link.exe /lib /nologo /machine:X86 /out:ClionWorkSpace.lib @CMakeFiles\ClionWorkSpace.dir\objects1.rsp 
 

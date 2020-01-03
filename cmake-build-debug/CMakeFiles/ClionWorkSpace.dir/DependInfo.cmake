@@ -13,6 +13,7 @@ set(CMAKE_C_COMPILER_ID "MSVC")
 set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
+  "E:/ClionWorkSpace/Str串/KMP.cpp" "E:/ClionWorkSpace/cmake-build-debug/CMakeFiles/ClionWorkSpace.dir/Str串/KMP.cpp.obj"
   "E:/ClionWorkSpace/p40/answer_p40.cpp" "E:/ClionWorkSpace/cmake-build-debug/CMakeFiles/ClionWorkSpace.dir/p40/answer_p40.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

@@ -124,6 +124,33 @@ ClionWorkSpace\fast:
 	$(MAKE) -f CMakeFiles\ClionWorkSpace.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ClionWorkSpace.dir\build
 .PHONY : ClionWorkSpace\fast
 
+Str´®\KMP.obj: Str´®\KMP.cpp.obj
+
+.PHONY : Str´®\KMP.obj
+
+# target to build an object file
+Str´®\KMP.cpp.obj:
+	$(MAKE) -f CMakeFiles\ClionWorkSpace.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ClionWorkSpace.dir\Str´®\KMP.cpp.obj
+.PHONY : Str´®\KMP.cpp.obj
+
+Str´®\KMP.i: Str´®\KMP.cpp.i
+
+.PHONY : Str´®\KMP.i
+
+# target to preprocess a source file
+Str´®\KMP.cpp.i:
+	$(MAKE) -f CMakeFiles\ClionWorkSpace.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ClionWorkSpace.dir\Str´®\KMP.cpp.i
+.PHONY : Str´®\KMP.cpp.i
+
+Str´®\KMP.s: Str´®\KMP.cpp.s
+
+.PHONY : Str´®\KMP.s
+
+# target to generate assembly for a file
+Str´®\KMP.cpp.s:
+	$(MAKE) -f CMakeFiles\ClionWorkSpace.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ClionWorkSpace.dir\Str´®\KMP.cpp.s
+.PHONY : Str´®\KMP.cpp.s
+
 p35-1\shortListMerge.obj: p35-1\shortListMerge.c.obj
 
 .PHONY : p35-1\shortListMerge.obj
@@ -187,6 +214,9 @@ help:
 	@echo ... ClionWorkSpace
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Str´®/KMP.obj
+	@echo ... Str´®/KMP.i
+	@echo ... Str´®/KMP.s
 	@echo ... p35-1/shortListMerge.obj
 	@echo ... p35-1/shortListMerge.i
 	@echo ... p35-1/shortListMerge.s

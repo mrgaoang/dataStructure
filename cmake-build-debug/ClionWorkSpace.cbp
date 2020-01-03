@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/ClionWorkSpace/Str串/KMP.cpp">
+			<Option target="ClionWorkSpace"/>
+		</Unit>
 		<Unit filename="E:/ClionWorkSpace/basic/shortListMerge.h">
 			<Option target="ClionWorkSpace"/>
 		</Unit>

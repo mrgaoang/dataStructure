@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ClionWorkSpace.dir/Str串/KMP.cpp.obj"
   "CMakeFiles/ClionWorkSpace.dir/p35-1/shortListMerge.c.obj"
   "CMakeFiles/ClionWorkSpace.dir/p40/answer_p40.cpp.obj"
   "ClionWorkSpace.lib"
