@@ -4,9 +4,9 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-
+#define maxSize 50
 typedef struct {
-    char ch[50];
+    char ch[maxSize];
     int length;
 } Str;
 
@@ -76,7 +76,7 @@ void getNextMy2(Str substr, int next[]) {
             ++j;
             ++t;
         } else {
-            t = next[t + 1];
+            t = next[t];
         }
     }
 }
@@ -107,4 +107,53 @@ int KMP(Str mainStr, Str modeStr, int next[]) {
     }
     // 匹配失败
     return 0;
+}
+
+
+/**
+ * 默写kmp
+ * @param mainStr
+ * @param modeStr
+ * @param next
+ * @return
+ */
+int KMPCopy(Str mainStr, Str modeStr, int next[]) {
+    int i, j = 1;
+    getNextMy(modeStr, next);
+    next[1] = 1;
+    while (i <= mainStr.length && j <= modeStr.length) {
+        if (mainStr.ch[i] == modeStr.ch[j]) {
+            i++;
+            j++;
+        } else {
+            j = next[j];
+        }
+    }
+    if (j > modeStr.length) {
+        return i - modeStr.length;
+    }
+    return 0;
+}
+
+/**
+ * 第三次默写get next
+ * @param modeStr
+ * @param next
+ */
+void getNextMy3(Str modeStr, int next[]) {
+    int j = 1, t = 0;
+    next[1] = 1;
+    while (j < modeStr.length) {
+        if (t == 0 || modeStr.ch[j] == modeStr.ch[t]) {
+            if (modeStr.ch[j + 1] != modeStr.ch[t]) {
+                next[j + 1] = t + 1;
+            } else {
+                next[j + 1] = next[t + 1];
+            }
+            ++j;
+            ++t;
+        } else {
+            t = next[t];
+        }
+    }
 }
